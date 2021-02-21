@@ -30,7 +30,7 @@ public class HelloControllerTest {
     }
 
     @Test
-    public void HelloDto가_리턴() throws Exception{
+    public void HelloDto가_리턴() throws Exception {
         String name = "김서방";
         int amount = 10;
 
