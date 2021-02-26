@@ -16,7 +16,7 @@ script: "./gradlew clean build"
 
 # 권한 문제 수정
 before_install:
-  - chomod +x gradlew
+  - chmod +x gradlew
 
 # CI 실행 완료시 메일로 알람
 # ㅁㄴㅇㅁㄴㅁㄴㅇ
